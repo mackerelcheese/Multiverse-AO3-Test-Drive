@@ -1,0 +1,47 @@
+/* tutorial from https://teekettle.tumblr.com/post/121690800779/so-after-i-made-my-last-ao3-work-skin*/
+
+/*original yellow sticky note*/ 
+#workskin .sticky {
+  display: block;
+  background-color: #ffff99;
+  color: #000000;
+  text-decoration: none;
+  font-family: "Comic Sans MS", "Chalkboard SE", sans-serif;
+  height: 10em;
+  width: 10em;
+  padding: 1em;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-box-shadow: 5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+
+/*alt one*/ 
+#workskin ..stickymiddle {
+  display: block;
+  background-color: #ffff99;
+  color: #000000;
+  text-decoration: none;
+  font-family: "Comic Sans MS", "Chalkboard SE", sans-serif;
+  height: 250px;
+  width: 250px;
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-box-shadow: 5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
