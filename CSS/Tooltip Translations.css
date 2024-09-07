@@ -1,6 +1,7 @@
 /*from https://archiveofourown.org/works/38363089*/ 
 /*User: Akzeal - https://archiveofourown.org/users/Akzeal/pseuds/Akzeal*/ 
 
+/* AO3 hates this
 #workskin .chapter {
 overflow-x: hidden !important;
 
@@ -41,4 +42,54 @@ margin-left: -5px;
 border-width: 5px;
 border-style: solid;
 border-color: #fff0f0 transparent transparent transparent;
+}
+so much hate*/
+
+/*version ao3 likes - https://archiveofourown.org/works/30290274*/ 
+/*User - Simbeline - https://archiveofourown.org/users/Simbeline/pseuds/Simbeline*/ 
+/* edits to background colour*/ 
+#workskin .chapter {
+  overflow-x: hidden !important;
+}
+
+#workskin .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+#workskin .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  margin-left: -20px;
+  background-color: #fff0f0;
+  color: #000;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 99999;
+  bottom: 100%;
+  left: 50%;
+  overflow-wrap: break-word;
+  box-shadow: 1px 1px 2px 0px #8a1b10;
+  -webkit-box-shadow: 1px 1px 2px 0px #8a1b10;
+  -moz-box-shadow: 1px 1px 2px 0px #8a1b10;
+  -o-box-shadow: 1px 1px 2px 0px #8a1b10;
+  -ms-box-shadow: 1px 1px 2px 0px #8a1b10;
+}
+
+#workskin .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#workskin .tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #fff0f0 transparent transparent transparent;
 }
