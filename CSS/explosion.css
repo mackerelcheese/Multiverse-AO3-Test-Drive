@@ -32,7 +32,7 @@ overflow: hidden;
         }  
 
 
-/*transparent verson*/ 
+/*transparent version - adapted from https://www.geeksforgeeks.org/how-to-create-shock-wave-or-explosion-effect-using-html-and-css/*/ 
 .container { 
 display: flex;
 justify-content: center;
@@ -42,44 +42,21 @@ padding: 10px;
 overflow: hidden;
 }
 
-.geeks { 
+.explode { 
             width: auto; 
             height: auto; 
             background: transparent; 
             transition: 2s; 
         } 
         
-        .geeks:hover { 
-            box-shadow: 0 0 0 30px #F5F5F5, 
-                        0 0 0 60px rgb(83, 224, 83), 
-                        0 0 0 100px rgb(83, 224, 83), 
-                        0 0 0 120px rgb(82, 226, 82), 
-                        0 0 0 200px rgb(37, 214, 37), 
-                        0 0 0 400px rgb(27, 165, 27), 
-                        0 0 0 450px rgb(63, 235, 63); 
+        .explode:hover { 
+            background: #F5F5F5;
+            box-shadow: 0 0 0 2em #F8F5DE, 
+                        0 0 0 4em #FFF396, 
+                        0 0 0 6em #C0CA7C, 
+                        0 0 0 8em #80A161, 
+                        0 0 0 10em #588D8E, 
+                        0 0 0 12em #2F79BA, 
+                        0 0 0 14em #781202; 
         }  
-/*gradient*/ 
-.container { 
-display: flex;
-justify-content: center;
-align-items: center; 
-margin: auto;
-height: 10em;
-width: 100%;
-padding: 10px;
-overflow: hidden;
-}
 
-.geeks { 
-            width: 100%; 
-            height: auto; 
-            background: transparent; 
-            -webkit-transition: width 4s, height 2s, margin 2s;
-            -moz-transition: width 4s, height 2s, margin 2s;
-            -ms-transition: width 4s, height 2s, margin 2s;
-            transition: width 4s, height 2s, margin 2s; 
-        } 
-        
-        .geeks:hover { 
-              background-image: radial-gradient(red, yellow, green); 
-        }  
