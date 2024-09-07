@@ -34,7 +34,7 @@ overflow: hidden;
 
 /*transparent version - adapted from https://www.geeksforgeeks.org/how-to-create-shock-wave-or-explosion-effect-using-html-and-css/*/ 
 
-/*edit the padding and/or overflow to either get a full box or a just a cut off rectangle*/
+/*edit the padding and/or overflow to either get a full box or a just a cut off rectangle -- look into curved edges?? and blur radius*/
 .container { 
 display: flex;
 justify-content: center;
