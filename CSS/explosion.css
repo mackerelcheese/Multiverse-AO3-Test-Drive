@@ -1,0 +1,85 @@
+.container { 
+display: flex;
+justify-content: center;
+align-items: center; 
+margin: auto;
+padding: 10px;
+overflow: hidden;
+}
+
+.geeks { 
+            width: auto; 
+            height: auto; 
+            background: green; 
+            box-shadow: 0 0 20px rgb(127, 153, 127), 
+                        0 0 40px rgb(127, 153, 127), 
+                        0 0 60px rgb(127, 153, 127), 
+                        0 0 80px rgb(127, 153, 127), 
+                        0 0 120px rgb(127, 153, 127), 
+                        0 0 220px rgb(127, 153, 127), 
+                        0 0 320px rgb(127, 153, 127); 
+            transition: 2s; 
+        } 
+        
+        .geeks:hover { 
+            box-shadow: 0 0 0 30px rgb(83, 224, 83), 
+                        0 0 0 60px rgb(83, 224, 83), 
+                        0 0 0 100px rgb(83, 224, 83), 
+                        0 0 0 120px rgb(82, 226, 82), 
+                        0 0 0 200px rgb(37, 214, 37), 
+                        0 0 0 400px rgb(27, 165, 27), 
+                        0 0 0 450px rgb(63, 235, 63); 
+        }  
+
+
+/*transparent verson*/ 
+.container { 
+display: flex;
+justify-content: center;
+align-items: center; 
+margin: auto;
+padding: 10px;
+overflow: hidden;
+}
+
+.geeks { 
+            width: auto; 
+            height: auto; 
+            background: transparent; 
+            transition: 2s; 
+        } 
+        
+        .geeks:hover { 
+            box-shadow: 0 0 0 30px #F5F5F5, 
+                        0 0 0 60px rgb(83, 224, 83), 
+                        0 0 0 100px rgb(83, 224, 83), 
+                        0 0 0 120px rgb(82, 226, 82), 
+                        0 0 0 200px rgb(37, 214, 37), 
+                        0 0 0 400px rgb(27, 165, 27), 
+                        0 0 0 450px rgb(63, 235, 63); 
+        }  
+/*gradient*/ 
+.container { 
+display: flex;
+justify-content: center;
+align-items: center; 
+margin: auto;
+height: 10em;
+width: 100%;
+padding: 10px;
+overflow: hidden;
+}
+
+.geeks { 
+            width: 100%; 
+            height: auto; 
+            background: transparent; 
+            -webkit-transition: width 4s, height 2s, margin 2s;
+            -moz-transition: width 4s, height 2s, margin 2s;
+            -ms-transition: width 4s, height 2s, margin 2s;
+            transition: width 4s, height 2s, margin 2s; 
+        } 
+        
+        .geeks:hover { 
+              background-image: radial-gradient(red, yellow, green); 
+        }  
