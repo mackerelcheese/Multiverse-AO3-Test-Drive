@@ -1,0 +1,23 @@
+/*columns for when the multiverse splits into different timelines*/ 
+
+.row {
+  display: flex;
+} 
+
+/*equal columns*/ 
+
+.eqcolumn {
+flex: 50%;
+padding: 10px;
+}
+
+/*unequal columns*/ 
+.uneqcolumn left{
+flex: 25%;
+padding: 10px;
+}
+
+.uneqcolumn right {
+flex: 75%; 
+padding: 10px; 
+}  
