@@ -62,3 +62,42 @@ overflow: hidden;
                         0 0 0 14em #781202; 
         }  
 
+/* black shadow version with white text experiment*/ 
+.container { 
+display: flex;
+justify-content: center;
+background: transparent;
+align-items: center; 
+margin: auto;
+padding: 10px;
+overflow: hidden;
+height: 14em;
+width: auto;
+transition: background-color 4s ease-in-out;
+}
+
+.container:hover { 
+background-color: black; 
+}
+
+.delay {
+transition-delay: 4s
+} 
+
+.explode { 
+            width: auto; 
+            height: auto; 
+            background: transparent; 
+            transition: 2s ease-in-out; 
+        } 
+        
+.explode:hover { 
+            background: #F5F5F5;
+            box-shadow: 0 0 0 2em #F8F5DE, 
+                        0 0 0 4em #FFF396, 
+                        0 0 0 6em #C0CA7C, 
+                        0 0 0 8em #80A161, 
+                        0 0 0 10em #588D8E, 
+                        0 0 0 12em #2F79BA, 
+                        0 0 0 14em #781202; 
+        }  
