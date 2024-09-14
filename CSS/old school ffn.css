@@ -1,0 +1,35 @@
+.figure {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.ffnheader {
+  width: 100%; 
+  color: white; 
+  text-align: left;
+  background-color: #33359a;
+  font-size: 0.8em;
+  height: 2em;
+}
+
+.ffn-menu {
+  display: flex;
+  align-items: left;
+  background-color: #f7f9ed;
+  height: auto;
+}
+
+.ffn-menu > div {
+  background-color: #f7f9ed;
+  color: black;
+  margin: 10px; 
+  text-align: left;
+  align-items: left;
+  line-height: auto;
+  font-size: 15px;
+}
+
+.ffmenugrow {
+flex-grow: 2;
+}
+
