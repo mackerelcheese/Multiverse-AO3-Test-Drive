@@ -22,7 +22,7 @@
 .ffn-menu > div {
   background-color: #f7f9ed;
   color: black;
-  margin: 10px; 
+  margin-left: 10px; 
   text-align: left;
   align-items: left;
   line-height: auto;
@@ -33,3 +33,14 @@
 flex-grow: 2;
 }
 
+.ffnmenutable {
+  background-color: #f7f9ed;
+  color: black;
+  margin-left: 10px; 
+  text-align: left;
+  align-items: left;
+  font-size: 1.25em; 
+  border-collapse: collapse; 
+  height: auto; 
+  width: auto;
+}
